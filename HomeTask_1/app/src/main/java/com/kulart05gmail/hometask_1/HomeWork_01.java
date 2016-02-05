@@ -47,7 +47,7 @@ public class HomeWork_01 {
 //            System.out.println(b1);
 //        } catch (NumberFormatException e) {
 //            System.out.println("Неверный формат строки!");
-//        }
+//        }N
 //
 //        //Перевод строки в массив байтов и обратно из массива байтов в строку
 //        String str3 = "20150";
@@ -167,7 +167,7 @@ public class HomeWork_01 {
         //Среднее арифметическое массива
 //        int[] numbers = {2, 4, 322, 11, 24, 54, 25, 89, 9};
 //
-//        double average = 0;
+//        double average = 0;d
 //
 //        if (numbers.length > 0) {
 //            double sum = 0;
@@ -210,23 +210,23 @@ public class HomeWork_01 {
 
         //создание и инициализация массива
         int[] numberArray = new int[10];
-        for(int i = 0; i < 10; i++){
+        for (int i = 0; i < 10; i++) {
             numberArray[i] = i;
         }
 
         //вывод значений на консоль
-        for(int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++) {
             String str = "-й элемент массива = ";
             String result = ((i + 1) + str + numberArray[i]);
 
             System.out.println(result);
         }
 
-        int[]array = new int[25];
+        int[] array = new int[25];
         int min = array[0];
 
-        for (int i = 0; i < array.length; i++){
-            if (min>array[i]){
+        for (int i = 0; i < array.length; i++) {
+            if (min > array[i]) {
                 min = array[i];
             }
 
@@ -234,7 +234,7 @@ public class HomeWork_01 {
         }
 
 
-        }
+    }
 }
 
 
