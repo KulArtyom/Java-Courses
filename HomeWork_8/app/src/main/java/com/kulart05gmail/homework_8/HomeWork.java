@@ -9,14 +9,14 @@ import java.util.regex.Pattern;
 public class HomeWork {
 
     public static void main(String[] args) {
-        GosCarNumber("1276 IO-7");
-        TelephoneNumber("+375 29 1124780");
-        DoubleSymbols("Keeeentuukey");
-        FileFormat("asdwwweq.pgn");
-        InspectionsFileFormat("asdw.exe");
+        gosCarNumber("1276 IO-7");
+        telephoneNumber("+375 29 1124780");
+        doubleSymbols("Keeeentuukey");
+        fileFormat("asdwwweq.pgn");
+        inspectionsFileFormat("asdw.exe");
     }
 
-    public static void GosCarNumber(String gosnumber) {
+    public static void gosCarNumber(String gosnumber) {
 
         Pattern p = Pattern.compile("^\\d{4}\\s[A-Z]{2}\\-[1-7]{1}$");
         Matcher m = p.matcher(gosnumber);
@@ -27,7 +27,7 @@ public class HomeWork {
         }
     }
 
-    public static void TelephoneNumber(String telnumber) {
+    public static void telephoneNumber(String telnumber) {
 
         Pattern p = Pattern.compile("^\\+375\\s(29|33|25)\\s\\d{7}$");
         Matcher m = p.matcher(telnumber);
@@ -38,7 +38,7 @@ public class HomeWork {
         }
     }
 
-    public static void DoubleSymbols(String doublesimbols) {
+    public static void doubleSymbols(String doublesimbols) {
 
         Matcher m;
         Pattern p = Pattern.compile("([a-z])\\1");
@@ -62,7 +62,7 @@ public class HomeWork {
     }
 
 
-    private static void FileFormat(String fileformat) {
+    private static void fileFormat(String fileformat) {
         Pattern p = Pattern.compile(".+\\.([a-z]+)$");
         Matcher m = p.matcher(fileformat);
         if (m.find()) {
@@ -74,7 +74,7 @@ public class HomeWork {
 
     }
 
-    private static void InspectionsFileFormat(String insfileformat) {
+    private static void inspectionsFileFormat(String insfileformat) {
         Pattern p = Pattern.compile(".+\\.(xml|json)$");
         Matcher m = p.matcher(insfileformat);
         if (m.find()) {
