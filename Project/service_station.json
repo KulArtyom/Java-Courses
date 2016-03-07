@@ -1,0 +1,70 @@
+{
+  "name": "Service station 213",
+  "location": "Minsk",
+  "customers": [
+      {
+        "id": 0,
+        "name": "Ivan",
+        "surname":"Ivanov",
+        "second_name":"Ivanovich",
+        "lastOrder": "2015-09-25",
+        "dateOfBirth": "2004-10-25",
+        "car": [
+    		  "BMW 5",
+     		  "Opel"
+     	 ],
+         "discount": true
+      },
+      {
+        "id": 1,
+        "name": "Alex",
+        "surname":"Petrov",
+        "second_name":"Petrovich",
+        "lastOrder": "2015-01-12",
+        "dateOfBirth": "1998-03-24",
+        "car": [
+    		  "Audi",
+     		  "Citroen",
+     		  "Toyota"
+     	 ],
+         "discount": false
+      },
+      {
+        "id": 2,
+        "name": "Elena",
+        "surname":"Golovach",
+        "second_name":"Vladimirovna",
+        "lastOrder": "2015-05-12",
+        "dateOfBirth": "1999-05-02",
+        "car": [
+    		  "Peugeot"
+     	 ],
+         "discount": true
+      },
+      {
+        "id": 3,
+        "name": "Olga",
+        "surname":"Vanilova",
+        "second_name":"Ivanovna",
+        "lastOrder": "2015-08-12",
+        "dateOfBirth": "1995-12-10",
+        "car": [
+    		  "Peugeot",
+     		  "Opel"
+     	 ],
+         "discount": false
+      },
+      {
+        "id": 4,
+        "name": "Sergei",
+        "surname":"Bagrov",
+        "second_name":"Alexandrovich",
+        "lastOrder": "2015-09-15",
+        "dateOfBirth": "2005-05-04",
+        "car": [
+    		  "Lada"
+     	 ],
+         "discount": true
+      }
+    ]
+}
